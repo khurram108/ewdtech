@@ -1,0 +1,56 @@
+.footer{
+    height: 800px;
+    background-image: url(./bgImage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    // position: fixed;
+    // bottom: 0px;
+    // z-index: -11;
+    padding-top: 350px;
+    // width: 100%;
+    .footer_inner{
+        display: flex;
+        justify-content: center;
+
+       .footer-item{
+           width: 350px;
+        margin-left: 40px;
+        color: white;
+            ._head_footer{
+                    display: flex;
+                    height: 80px;
+                    font-family: futuraBTBKBold;
+                    font-size: 30px;
+                    img{
+                        height: 60px;
+                        margin-top: 10px;
+                    }
+                    .ewd-title{
+                        margin-top: 20px;
+                        margin-left: 10px;
+                    }
+                    .footer-titles{
+                        margin-top: 25px;
+                        
+                    }
+                }
+            ._footer_text{
+                padding-top: 20px;
+                width: 300px;
+                font-family: futuraBTBK;
+                font-size: 22px;
+            }
+        }
+
+    }
+    .footer_icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        .social{
+            margin-left: 15px;
+        }
+    }
+
+
+}

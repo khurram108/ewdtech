@@ -1,0 +1,275 @@
+
+.header-fluid{
+    box-shadow: 0px 8px 6px -6px lightgrey;
+}
+.nav-item{
+        border-bottom: '1px solid #00B3FF';
+        font-size: 18px;
+        list-style-type: none;
+        padding: 7px;
+        margin-left: 25px;
+        font-family: futuraBTBKBold;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: auto;
+        float: right;
+        
+    }
+    .nav-text{
+        background: -webkit-linear-gradient(#00B3FF, #0077D5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .active-tab{
+        border-bottom: 2px solid #00B3FF;
+        
+    }
+
+
+    @keyframes cloudFromBottom{
+        0%{
+            background-position-y: 900px , 370px , -700px;
+            background-position-x: 90% , 600%,58%;
+        }
+        20%{
+            background-position-y:700px , 370px , -700px;
+            background-position-x:90% , 600%,58%;
+        }
+        50%{
+            background-position-y:0px , 370px , -700px;
+            background-position-x:90% , 400%,58%;
+        }
+        75%{
+            background-position-y:0px , 370px , -700px;
+            background-position-x:90% , 100%,58%;
+        }
+        100%{
+            background-position-y: 0px , 370px , 194px;
+            background-position-x: 90% , 100%,58%;
+        }
+    }
+
+    .animate-outer{
+        height: 650px;
+        width: 100%;
+        margin-top: 130px;
+    }
+    @keyframes cloudFromBottom{
+        0%{
+            margin-top: 800px;
+            top: 0%;
+        }
+        15%{ 
+            margin-top: 0px;
+            top: 28%;
+        }
+    }
+    @keyframes tableFromRight{
+        0%{
+            width: 0px;
+            z-index: -11;
+            /* left: 0; */
+            left: -50%;
+        }
+        16%{
+            width: 0px;
+            z-index: -11;
+            left: -50%;
+        }
+        30%{
+            width: 450px;
+            z-index: 555;
+            left: 41%;
+            
+        }
+        60%{
+            width: 450px;
+            z-index: 18;
+            left: 41%;
+            
+        }
+       
+    }
+    @keyframes pcFromTop{
+        0%{
+            margin-top: -600px;
+            
+        }
+        16%{
+            margin-top: -600px;
+            
+        }
+        30%{
+            margin-top: -600px;
+           
+
+        }
+        45%{ 
+            margin-top: 160px;
+            z-index: 9999;
+        }
+        /* 60%{ 
+            margin-top: 193px;
+            z-index: 20;
+
+        } */
+    }
+    @keyframes humanFromTop{
+        0%{
+            margin-top: 670px;
+            
+        }
+        16%{
+            margin-top: 670px;
+            
+        }
+        30%{
+            margin-top: 670px;
+            
+
+        }
+        45%{ 
+            margin-top: 115px;
+            z-index: 15;
+            
+
+        }
+        /* 60%{ 
+            margin-top: 115px;
+            z-index: 15;
+
+        } */
+        /* 75%{ 
+            margin-top: 115px;
+            z-index: 15;
+
+        } */
+    }
+    @keyframes iconsFromPC{
+        0%{
+           z-index: -11;
+           -ms-transform: rotate(-180deg); 
+        }
+        16%{
+           z-index: -11;
+           -ms-transform: rotate(-180deg); 
+        }
+        30%{
+           z-index: -11;
+           -ms-transform: rotate(-180deg); 
+
+        }
+        45%{ 
+           z-index: -11;
+           -ms-transform: rotate(-180deg); 
+
+        }
+        60%{ 
+           z-index: -11;
+           -ms-transform: rotate(-180deg); 
+
+        }
+        80%{ 
+            /* margin-top: 115px; */
+            z-index: -11;
+            transform: rotate(-180deg); 
+
+        }
+        100%{ 
+            /* margin-top: 115px; */
+            transform: rotate(0deg); 
+            z-index: 25;
+
+        }
+        /* 75%{ 
+            margin-top: 115px;
+            z-index: 15;
+
+        } */
+    }
+
+    .cloud-outer{
+        position: absolute;
+        animation: cloudFromBottom 10s;
+        -webkit-animation: cloudFromBottom 10s;
+        left: 40%;
+        top: 28%;
+     
+        
+        
+    }
+    .cloud-outer img, .table-outer img{
+        width: 650px;
+    }
+    .human-outer img{
+        width: 150px;
+    }
+    .icons-outer img{
+        width: 300px;
+    }
+    .table-outer{
+        position: absolute;
+        margin-top: 290px;
+        /* margin-left: 60px; */
+        z-index: 18;
+        animation: tableFromRight 15s;
+        -webkit-animation: tableFromRight 15s;
+        width: 650px;
+        /* right: 0px; */
+        left: 41%
+        
+    }
+    /* .table-outer img{
+        width: 700px;
+    } */
+    .pc-outer{
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 370px;
+        z-index: 20;
+        animation: pcFromTop 15s;
+        -webkit-animation: pcFromTop 15s;
+
+    }
+    .pc-image{
+        height: 130px;
+    }
+    .human-outer{
+        position: absolute;
+        margin-top: 116px;
+        margin-left: 480px;
+        z-index: 15;
+        animation: humanFromTop 15s;
+        -webkit-animation: humanFromTop 15s;
+    }
+    .human-outer img{
+        width: 140px;
+    }
+    .icons-outer{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 420px;
+        z-index: 25;
+        animation: iconsFromPC 8s;
+        -webkit-animation: iconsFromPC 8s ;
+    }
+    .icons-outer img{
+        width: 285px;
+    }
+    .ewd-text{
+        font-weight: bolder;
+        font-size: 5em;
+        position: absolute;
+        z-index: 700;
+        text-transform: uppercase;
+        left: 10%;
+        background: -webkit-linear-gradient(#00B3FF, #0077D5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: futuraBTBKBold;
+    }
+
+   
+
+
+    /* animation: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1 reverse both running rotate-right; */

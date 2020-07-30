@@ -1,0 +1,136 @@
+// HomePage Start
+.card-section{
+    width: 320px;
+    height: 470px;
+    box-shadow: 0px 0px 20px 2px lightgrey;
+    margin-left: 40px;
+    border-radius: 25px;
+    .card-header{
+        height: 180px;
+        // border-bottom: 1px solid black;
+        background: -webkit-radial-gradient(#00B3FF, #0077D5);
+        border-radius: 25px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .card-cicle{
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        border: 5px solid white;
+        position: relative;
+        margin: auto;
+        top: -100px;
+        background: -webkit-radial-gradient(#00B3FF, #0077D5);
+        box-shadow:3px 6px 14px -4px black;
+        // text-align: center;
+        .ecomrce{
+            margin-top: 40px;
+            margin-left: 27px;
+        }
+        .web-app{
+            margin-top: 38px;
+            margin-left: 35px;
+        }
+        .d-service{
+            margin-top: 40px;
+            margin-left: 43px;            
+        }
+    }
+    .text-section-card{
+        height: 100px;
+        width: 100%;
+        position: relative;
+        top: -80px;
+        text-align: center;
+        .head-text{
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: futuraBTBKBold;
+        }
+        .body-text{
+            font-size: 20px;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            font-weight: 400;
+            font-family: futuraBTBK;
+
+        }
+    }
+}
+.number_tag{
+            font-size: 40px;
+            background: -webkit-linear-gradient(#00B3FF, #0077D5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-left: 40px;
+            font-weight: 700;
+            font-family: futuraBTBKBold;
+}
+.heading-tag{
+            font-size: 40px;
+            background: -webkit-linear-gradient(#00B3FF, #0077D5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-left: 40px;
+            font-weight: 700;
+            font-family: futuraBTBKBold;
+}
+.description_tag{
+            font-size: 25px;
+            padding-left: 40px;
+            font-weight: 500;
+            font-family: futuraBTBK;
+            text-align: start;
+            margin: 20px 0px;
+}
+.button-read-outer{
+    padding-left: 40px;
+    margin-top: 30px;
+    .read-more-btn{
+        padding: 10px 30px;
+        color: white;
+        background: -webkit-radial-gradient(#00B3FF, #0077D5);
+        border: 0px;
+        border-radius: 20px;
+        font-family: futuraBTBKBold;
+        font-size: 20px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+._left{
+    // margin-left: 80px;
+    height: 100%;
+    width: 100%;
+}
+._img_card{
+    height: 100%;
+    width: 100%;
+}
+//HomePage End
+
+//About US Start
+.about-wrp{
+    height: 500px;
+    .about-head{
+        background: #fbfbfb;
+        .about-p{
+
+            height: 200px;
+            padding: 20px;
+            padding-top: 60px;
+            width: 100%;
+            text-align: center;
+            font-size: 3em;
+            font-family: futuraBTBKBold;
+            background: -webkit-linear-gradient(#00B3FF, #0077D5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+    }
+}
+//About US End
