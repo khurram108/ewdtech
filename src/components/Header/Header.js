@@ -50,7 +50,7 @@ function Header() {
     return (
         <>
 
-            <BrowserRouter>
+        
                 <div className="container-fluid header-fluid">
 
                     <Grid container className={classes.root} >
@@ -68,19 +68,21 @@ function Header() {
                                         <span className="nav-text">
 
                                             Home
-                </span>
+                                          </span>
                                     </Link>
                                 </li>
                                 <li className={`nav-item ${active == 1 ? "active-tab" : null}`} onClick={() => handleChange(1)}>
                                     <span className="nav-text">
                                         Services
-            </span>
+                                      </span>
                                 </li>
-                                <li className={`nav-item ${active == 2 ? "active-tab" : null}`} onClick={() => handleChange(2)}>
+                             {/* <Link to="/portfolio"> */}
+                             <Link to="/portfolio" className={`nav-item ${active == 2 ? "active-tab" : null}`} onClick={() => handleChange(2)} >
                                     <span className="nav-text">
                                         Portfolio
-            </span>
-                                </li>
+                                     </span>
+                                </Link>
+                             {/* </Link> */}
                                 <Link to="/about_us">
                                     <li className={`nav-item ${active == 3 ? "active-tab" : null}`} onClick={() => handleChange(3)}>
                                         <span className="nav-text">
@@ -88,11 +90,12 @@ function Header() {
                                         </span>
                                     </li>
                                 </Link>
-                                <li className={`nav-item ${active == 4 ? "active-tab" : null}`} onClick={() => handleChange(4)}>
+                              <Link to="contact-us">
+                              <li className={`nav-item ${active == 4 ? "active-tab" : null}`} onClick={() => handleChange(4)}>
                                     <span className="nav-text">
                                         Contact Us
-            </span>
-                                </li>
+                                      </span>
+                                </li></Link>
                                 {/* <img src={require('../resources/Home/images/chair.png')} alt=""/> */}
                             </div>
 
@@ -100,7 +103,7 @@ function Header() {
                     </Grid>
 
                 </div>
-            </BrowserRouter>
+        
 
         </>
 

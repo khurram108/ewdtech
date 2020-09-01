@@ -24,24 +24,25 @@ function App() {
 
   return (
 
+    <Router history={history}>
 
-    <div>
+
       <Header />
-      <Portfolio />
+      {/* <Portfolio /> */}
 
 
-      {/* <Router history={history}>
         <Switch>
 
           <Route path="/" component={HomePage} />
           <Route path="/home" component={HomePage} />
+          <Route path="/portfolio" component={Portfolio} />
+
           <Route path="/about_us" component={AboutUs} />
+          <Route path="/contact_us" component={ContactUs} />
 
         </Switch>
 
-      </Router> */}
-    </div>
-
+      </Router> 
 
 
   )
