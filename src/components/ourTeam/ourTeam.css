@@ -1,0 +1,37 @@
+.outer{
+    height: 400px;
+    margin-top: 4%;
+    padding-left: 2%;
+}
+
+.E_Team{
+
+    font-size: 36px;
+    line-height: 1.333;
+    font-weight: 600;
+    width: 25%;
+}
+.success{
+    /* width: 55%; */
+    margin-right: 1%;
+
+}
+
+
+.BtnA button {
+    margin-left: 45%;
+    width: 143px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(#00B3FF, #0077D5);
+    color: white;
+}
+
+
+
+.img1{
+    height: 325px;
+    width: 295px;
+}

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: futuraBTBK;
   src: url(./components/resources/Home/futura_bk_bt/FutuBk.ttf);
 }
@@ -8,4 +8,15 @@
 }
 *{
   transition: all 0.5s ease;
+}
+
+ */
+
+ @font-face{
+   font-family: Monster;
+   src: url('./components/resources/Home/Montserrat/Montserrat-Regular.ttf');
+ }
+ @font-face{
+  font-family: MonsterBold;
+  src: url('./components/resources/Home/Montserrat/Montserrat-Bold.ttf');
 }

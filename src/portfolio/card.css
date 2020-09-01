@@ -1,0 +1,49 @@
+.Card__Container{
+
+    width: 350px;
+    height: 370px;
+ 
+
+}
+.card__img{
+    /* position: absolute; */
+    z-index: 1;
+ 
+}
+.card__img img{
+    height: 285px;
+    width: 100%;
+    /* position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  */
+}
+
+.card__title{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: white;
+ 
+    z-index: 2; 
+    position: relative;
+    top: -20px;
+    margin-top: 1px;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+/* 
+    transition-property: height;
+    transition-duration: 2s; */
+    /* transition: all 1s ease-out; */
+
+}
+
+.card__title:hover{
+    /* padding-bottom: 50px !important; */
+    /* margin-top: -30px;
+    transition: 0.1s; */
+
+    margin-top: -25px;
+   
+}

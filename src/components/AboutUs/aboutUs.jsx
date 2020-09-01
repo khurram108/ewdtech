@@ -18,7 +18,9 @@ const useStyles = makeStyles((theme) => ({
 const About = (props) => {
     const classes = useStyles()
     return (
-        <div className="about-wrp">
+      <section id="About">
+          <h1>about us</h1>
+            <div className="about-wrp">
             <div className="about-head">
                 <p className="about-p">
                     About Us
@@ -38,6 +40,7 @@ const About = (props) => {
                 </Grid>
             </Grid>
         </div>
+      </section>
     )
 }
 export default About

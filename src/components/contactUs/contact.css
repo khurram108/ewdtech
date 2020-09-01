@@ -1,0 +1,200 @@
+
+
+.heading{
+    height: 220px;
+    background-color: #f3f6fd;
+    margin-top: 2%;
+}
+h1 h2 h3 h4 h5 h6 {
+    line-height: 1;
+    margin-bottom: 3%;
+    padding-top: 2%;
+}
+.heading h1{
+    text-align: center;
+    /* margin: auto; */
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-top: 7%;
+
+}
+
+.middle{
+    height: 500px;
+    margin-top: 5%;
+    background-color: #ffffff;
+    /* background-color: red; */
+}
+.first {
+    font-size: 32px;
+    line-height: 1.333;
+    font-weight: 650;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.para{
+    margin-left: 2%;
+    font-size:18px;line-height:30px;
+}
+.para p{
+    /* background: -webkit-linear-gradient(#00B3FF, #0077D5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+}
+
+.iconAndText{
+    display: flex;
+    margin-top: 3%;
+    /* flex-wrap: wrap; */
+}
+.MarkerAdj{
+  
+  font-size: 35px;
+
+  background: -webkit-linear-gradient(#00B3FF, #0077D5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iconadj{
+    margin-right: 4%;
+    margin-top: 1%;
+    width: 70px;
+    height: 60px;
+    border: 1px solid #f1f1f4;
+    padding-top: 2%;
+    padding-left: 4%;
+
+}
+.iconadjMail{
+    margin-right: 4%;
+    margin-top: 1%;
+    width: 70px;
+    height: 60px;
+    border: 1px solid #f1f1f4;
+    padding-top: 2%;
+    padding-left: 3%;
+
+}
+
+.rightwhole{
+    height: 435px;
+    margin-top: 2%;
+    /* background-color: red; */
+    box-shadow: 7px 5px 30px 0px rgba(72, 73, 121, 0.15);
+    padding-left: 5%;
+    padding-top: 4%;
+
+}
+.custom-weight{
+    font-weight: bold;
+    font-size: 24px;
+}
+.haha{
+    
+width: 95%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+    font-family: inherit;
+    border: 0;
+    background: transparent;
+    outline: none;
+    margin: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    background: #f3f5fe;
+}
+.adjustInput{
+margin-top: 4%;
+}
+.adjustInput1{
+    margin-top: 2%;
+    }
+    .adjustmentOftexterea{
+        height: 150px;
+        width: 95%;
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.7;
+            padding: 10px 20px;
+            -webkit-appearance: none;
+            font-family: inherit;
+            border: 0;
+            background: transparent;
+            outline: none;
+            margin: 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease;
+            background: #f3f5fe;
+
+    }
+
+    .btnadj{
+        /* background-color: #ff7d00; */
+        border: none;
+        border-radius: 3px;
+        margin-top: 3%;
+        width: 157px;
+        height: 40px;
+    color: #ffffff;
+        /* background: -webkit-linear-gradient(left,#ffc600 0%,#ff4200 50%,#ffc600 100%); */
+        background-size: 300%,1px;
+        background-position: 0%;
+
+
+        background: -webkit-linear-gradient(#00B3FF, #0077D5);
+
+    }
+
+.AdjMap{
+    width: 100%;
+    height: 500px;
+}
+.last{
+    margin-top: 1%;
+    padding:30px;
+}
+
+@media screen and (max-width: 761px){
+
+
+.last{
+    margin-top: 100%;
+    padding:30px;
+}
+.AdjMap{
+    width: 100%;
+    height: 300px;
+}
+
+}
+@media screen and (max-width: 381px){
+
+
+    .last{
+        margin-top: 510px;
+        padding:30px;
+    }
+    .AdjMap{
+        width: 100%;
+        height: 300px;
+    }
+    
+    }
