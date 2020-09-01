@@ -76,7 +76,7 @@ function HomePage() {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <section id="">
 
                 <div className="container">
