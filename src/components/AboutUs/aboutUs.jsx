@@ -19,7 +19,7 @@ const About = (props) => {
     const classes = useStyles()
     return (
       <section id="About">
-          <h1>about us</h1>
+      
             <div className="about-wrp">
             <div className="about-head">
                 <p className="about-p">
