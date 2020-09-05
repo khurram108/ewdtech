@@ -10,6 +10,8 @@ import Footer from "./components/Footer/Footer";
 import ContactUs from "./components/contactUs/contact";
 import OurTeam from "./components/ourTeam/ourTeam";
 import Portfolio from "./portfolio/portfolio";
+import Service from './components/services/service'
+// import Services from "./components/"
 import { Router, Switch, Route, Link, withRouter } from "react-router-dom";
 
 const App = () => {
@@ -21,8 +23,13 @@ const App = () => {
 
         <div>
           <Route path="/" exact component={HomePage} />
+          <Route path="/service" exact component={withRouter(Service)} />
+
+          <Route path="/portfolio" exact component={withRouter(Portfolio)} />
 
           <Route path="/about_us" exact component={withRouter(AboutUs)} />
+          <Route path="/contact" exact component={withRouter(ContactUs)} />
+
         </div>
       </div>
     </Router>

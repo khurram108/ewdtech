@@ -68,18 +68,22 @@ const Header = () => {
                     <span className="nav-text">Home</span>
                   </Link>
                 </li>
-                <li
+            <Link to="/service">
+            <li
                   className={`nav-item ${active == 1 ? "active-tab" : null}`}
                   onClick={() => handleChange(1)}
                 >
                   <span className="nav-text">Services</span>
                 </li>
-                <li
+            </Link>
+            <Link to="portfolio">
+            <li
                   className={`nav-item ${active == 2 ? "active-tab" : null}`}
                   onClick={() => handleChange(2)}
                 >
                   <span className="nav-text">Portfolio</span>
                 </li>
+            </Link>
                 <Link to="about_us">
                   <li
                     className={`nav-item ${active == 3 ? "active-tab" : null}`}
@@ -88,12 +92,15 @@ const Header = () => {
                     <span className="nav-text">About Us</span>
                   </li>
                 </Link>
-                <li
+          <Link to="/contact">
+          
+          <li
                   className={`nav-item ${active == 4 ? "active-tab" : null}`}
                   onClick={() => handleChange(4)}
                 >
                   <span className="nav-text">Contact Us</span>
                 </li>
+          </Link>
                 {/* <img src={require('../resources/Home/images/chair.png')} alt=""/> */}
               </div>
             </Grid>

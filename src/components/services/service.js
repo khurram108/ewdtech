@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import './resources/Home/animation.css'
-import './resources/Home/style.scss'
-import Footer from './Footer/Footer'
-import Header from './Header/Header';
+import '../resources/Home/animation.css'
+import '../resources/Home/style.scss'
+import Footer from '../Footer/Footer'
+import Header from '../Header/Header';
 import { withRouter, Link } from 'react-router-dom'
 
 
@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-function HomePage() {
+function Service() {
     const classes = useStyles();
     const [spacing, setSpacing] = React.useState(2);
 
@@ -81,40 +81,6 @@ function HomePage() {
 
                 <div className="container">
 
-                    <Grid container className={classes.bannerContainer}>
-                        <Grid item xs={12} md={3} className={classes.bannerOuter}>
-                            <Grid className="ewd-text">
-                                {/* <img src={require('./resources/Home/')} alt=""/> */}
-                          ewdtech
-                         </Grid>
-                        </Grid>
-                        <Grid item xs={12} md={9} className={classes.bannerOuter}>
-
-                            <div className="animate-outer">
-                                <div className="cloud-outer">
-                                    <img src={require('./resources/Home/images/cloud.png')} alt="" className="cloud-image" />
-
-                                </div>
-                                <div className="table-outer">
-                                    <img src={require('./resources/Home/images/table.png')} alt="" className="table-image" />
-
-                                </div>
-                                <div className="pc-outer">
-                                    <img src={require('./resources/Home/images/computer-8.png')} alt="" className="pc-image" />
-
-                                </div>
-                                <div className="human-outer">
-                                    <img src={require('./resources/Home/images/chair.png')} alt="" className="human-image" />
-
-                                </div>
-                                <div className="icons-outer">
-                                    <img src={require('./resources/Home/images/icons.png')} alt="" className="icons-image" />
-
-                                </div>
-
-                            </div>
-                        </Grid>
-                    </Grid>
 
 
                     {/* Card section */}
@@ -125,7 +91,7 @@ function HomePage() {
 
                             </div>
                             <div className="card-cicle">
-                                <img src={require("./resources/Home/images/E-COMMERCE_SOLUTION.png")} alt="" className="ecomrce card-image" />
+                                <img src={require("../resources/Home/images/E-COMMERCE_SOLUTION.png")} alt="" className="ecomrce card-image" />
                             </div>
                             <div className="text-section-card">
                                 <div className="head-text">
@@ -144,7 +110,7 @@ function HomePage() {
 
                             </div>
                             <div className="card-cicle">
-                                <img src={require("./resources/Home/images/WEB_APPLICATION.png")} alt="" className="web-app card-image" />
+                                <img src={require("../resources/Home/images/WEB_APPLICATION.png")} alt="" className="web-app card-image" />
                             </div>
                             <div className="text-section-card">
                                 <div className="head-text">
@@ -162,7 +128,7 @@ function HomePage() {
 
                             </div>
                             <div className="card-cicle">
-                                <img src={require("./resources/Home/images/DESIGN_SERVICES.png")} alt="" className="d-service card-image" />
+                                <img src={require("../resources/Home/images/DESIGN_SERVICES.png")} alt="" className="d-service card-image" />
                             </div>
                             <div className="text-section-card">
                                 <div className="head-text">
@@ -203,7 +169,7 @@ function HomePage() {
                             </div>
                         </Grid>
                         <Grid item xs={6}>
-                            <img src={require("./resources/Home/images/E-Commerce_vector.png")} alt="" className="_img_card" />
+                            <img src={require("../resources/Home/images/E-Commerce_vector.png")} alt="" className="_img_card" />
                         </Grid>
 
                     </Grid>
@@ -230,7 +196,7 @@ function HomePage() {
                             </div>
                         </Grid>
                         <Grid item xs={6}>
-                            <img src={require("./resources/Home/images/WEB_APPLICATIN_vectors-8.png")} alt="" className="_left _img_card" />
+                            <img src={require("../resources/Home/images/WEB_APPLICATIN_vectors-8.png")} alt="" className="_left _img_card" />
                         </Grid>
 
                     </Grid>
@@ -258,7 +224,7 @@ function HomePage() {
                             </div>
                         </Grid>
                         <Grid item xs={6}>
-                            <img src={require("./resources/Home/images/design_services_vector-8.png")} alt="" className=" _img_card" />
+                            <img src={require("../resources/Home/images/design_services_vector-8.png")} alt="" className=" _img_card" />
                         </Grid>
 
                     </Grid>
@@ -279,4 +245,4 @@ function HomePage() {
 
 }
 
-export default HomePage
+export default Service
