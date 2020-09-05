@@ -4,21 +4,27 @@ import "./App.css";
 // import {  Router , Route ,Switch} from 'react-router'
 import HomePage from "./components/app";
 import history from "./components/common/history";
-import AboutUs from "./components/AboutUs/aboutUs.js";
+import AboutUs from "./components/AboutUs/aboutUs";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ContactUs from "./components/contactUs/contact";
 import OurTeam from "./components/ourTeam/ourTeam";
 import Portfolio from "./portfolio/portfolio";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Router, Switch, Route, Link, withRouter } from "react-router-dom";
 
 const App = () => {
   return (
     <Router history={history}>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={AboutUs} />
-      </Switch>
+      <div>
+        <Header />
+        {/* <Portfolio /> */}
+
+        <div>
+          <Route path="/" exact component={HomePage} />
+
+          <Route path="/about_us" exact component={withRouter(AboutUs)} />
+        </div>
+      </div>
     </Router>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import { Link, BrowserRouter as Router, withRouter } from "react-router-dom";
+import { Link, BrowserRouter, withRouter } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Header() {
+const Header = () => {
   const classes = useStyles();
 
   const [active, setActive] = React.useState(0);
@@ -43,8 +43,8 @@ function Header() {
   };
 
   return (
-    <div>
- 
+    <>
+  
         <div className="container-fluid header-fluid">
           <Grid container className={classes.root}>
             <Grid item xs={12} md={4} spacing={2}>
@@ -64,7 +64,7 @@ function Header() {
                   className={`nav-item ${active == 0 ? "active-tab" : null}`}
                   onClick={() => handleChange(0)}
                 >
-                  <Link to="/home">
+                  <Link to="/">
                     <span className="nav-text">Home</span>
                   </Link>
                 </li>
@@ -80,7 +80,7 @@ function Header() {
                 >
                   <span className="nav-text">Portfolio</span>
                 </li>
-                <Link to="/about">
+                <Link to="about_us">
                   <li
                     className={`nav-item ${active == 3 ? "active-tab" : null}`}
                     onClick={() => handleChange(3)}
@@ -99,8 +99,9 @@ function Header() {
             </Grid>
           </Grid>
         </div>
-    </div>
+    
+    </>
   );
-}
+};
 
 export default Header;
