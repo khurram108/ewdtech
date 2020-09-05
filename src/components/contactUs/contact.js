@@ -28,7 +28,7 @@ class ContactUs extends React.Component {
 
                     <div className='row middle'>
 
-                        <div className="col-md-6 left">
+                        <div className="col-md-7 left">
 
                             <div className='first'>
                                 Get in Touch
@@ -79,7 +79,7 @@ class ContactUs extends React.Component {
 
 
                         </div>
-                        <div className="col-md-6 right">
+                        <div className="col-md-4 right">
 
 
                             <div className="rightwhole">
@@ -120,7 +120,8 @@ class ContactUs extends React.Component {
 
                         <div className="col-md-12 last">
                             {/* <SimpleMap/> */}
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217897.55247864893!2d72.94921578339455!3d31.42378830022853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1596527818474!5m2!1sen!2s" className="AdjMap" frameborder="0" style={{ border: '0' }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d13617.80323037922!2d73.0698256038707!3d31.429253995896605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m5!1s0x39224299c2a3f9c9%3A0x1f10426b658597b5!2sMeezan%20Executive%20Tower%2C%20Liaqat%20Road%2C%20Faisalabad!3m2!1d31.4244445!2d73.0767573!4m0!5e0!3m2!1sen!2s!4v1598966062944!5m2!1sen!2s" width="1350" height="450" frameborder="0" style={{border:'o'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217897.55247864893!2d72.94921578339455!3d31.42378830022853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1596527818474!5m2!1sen!2s" className="AdjMap" frameborder="0" style={{ border: '0' }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
 
                         </div>
 
