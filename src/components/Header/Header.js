@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: 50,
   },
   navOuter: {
+    textDecoration:'none',
     padding: 10,
     paddingLeft: 50,
     display: "flex",
@@ -31,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
   tab: {
     width: "100px !important",
   },
+  HeaderHome:{
+    // textDecoration:'none'
+  }
 }));
 
 const Header = () => {
