@@ -12,6 +12,10 @@
 
  */
 
+ *{
+  font-family: Monster !important;
+
+ }
  @font-face{
    font-family: Monster;
    src: url('./components/resources/Home/Montserrat/Montserrat-Regular.ttf');
