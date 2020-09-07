@@ -127,12 +127,7 @@ class ContactUs extends React.Component {
 
                     </div>
 
-                    <div className='row'>
-                        <div className="col-md-12">
-
-                            <Footer />
-                        </div>
-                    </div>
+             
 
                     {/* Map end */}
 

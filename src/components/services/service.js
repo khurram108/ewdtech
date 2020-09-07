@@ -41,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
         position: 'relative',
         zIndex: 50,
         height: 550,
+        marginTop:'5px',
         display: 'flex',
         justifyContent: 'center',
         paddingTop: 50,
