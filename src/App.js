@@ -30,7 +30,9 @@ const App = () => {
           <Route path="/about_us" exact component={withRouter(AboutUs)} />
           <Route path="/contact" exact component={withRouter(ContactUs)} />
 
+       <Footer/>
         </div>
+
       </div>
     </Router>
   );

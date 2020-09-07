@@ -45,13 +45,18 @@
         top: -80px;
         text-align: center;
         .head-text{
-            font-size: 22px;
+            font-size: 28px;
             font-weight: 700;
             margin-bottom: 20px;
             font-family: futuraBTBKBold;
+            // color: -webkit-linear-gradient(#00B3FF, #0077D5);
+            background: -webkit-linear-gradient(#00B3FF, #0077D5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            // color: red;
         }
         .body-text{
-            font-size: 20px;
+            font-size: 18px;
             width: 80%;
             text-align: center;
             margin: auto;
@@ -80,7 +85,7 @@
             font-family: futuraBTBKBold;
 }
 .description_tag{
-            font-size: 25px;
+            font-size: 20px;
             padding-left: 40px;
             font-weight: 500;
             font-family: futuraBTBK;

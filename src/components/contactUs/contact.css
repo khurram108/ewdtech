@@ -172,7 +172,8 @@ margin-top: 4%;
 }
 .last{
     margin-top: 1%;
-    padding:30px;
+    padding-left:125px;
+    /* align-content: center; */
 }
 
 @media screen and (max-width: 761px){
