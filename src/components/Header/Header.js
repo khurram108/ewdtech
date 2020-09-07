@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "white",
     boxShadow: "0px 8px 6px -6px lightgrey",
     zIndex: 999,
-    height: 80,
+    height: 70,
     width: "100%",
     // border:'1px solid red'
   },
@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: 50,
     paddingBottom: 0,
     paddingTop: "7px",
+    height:'65px  '
   },
   navOuter: {
     textDecoration: "none",
@@ -41,7 +42,11 @@ const useStyles = makeStyles((theme) => ({
   HeaderHome: {
     // textDecoration:'none'
   },
-  headerDiv: {},
+  headerDiv: {
+    position: "sticky !important",
+    // border: "1px solid red",
+    
+  },
 }));
 
 const Header = () => {
